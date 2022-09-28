@@ -15,7 +15,7 @@
             Mensaje encriptado2: <textarea name="msgE2" id="" cols="30" rows="10"></textarea> <br><br>
             <!-- Mensaje encriptado1: <input type="text" name="msgE1" value="" styles="width:100%;"><br><br> -->
             Mensaje encriptado1: <textarea name="msgE1" id="" cols="30" rows="10"><?php echo $msgDE2; ?></textarea><br><br>
-            Mensaje original: <input type="text" name="msgO"><br><br>
+            Mensaje original: <textarea name="msgO" id="" cols="30" rows="10"><?php echo $msgDE1; ?></textarea> <br><br>
             <br>
             <input type="submit" value="Desencriptar">
         </fieldset>
